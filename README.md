@@ -23,11 +23,14 @@ Through each epoch during the learning process, validation loss and training los
 The model has an accuracy score of 96.24%, which indicates that our CNN model performs really well to classify 96.24% of the images in the test set.
 For the case of detecting Pneumonia, we will aim to have high recall as any delayed diagnosis means that someone may get sick and potentially lose their life. The model has a recall score of 98.36% with 2.56% false positives and 1.20% false negatives, which are impressively good and exactly what we are aiming for.
 ## Conclusion
-Our CNN model can effectively detect pneumonia disease with extremely high accuracy.
+- Our CNN model can effectively detect pneumonia disease with extremely high accuracy.
+- Radiologists could combine this model and their expertise to make highly accurate diagnosis of Pneumonia.
 ## Future Work
 To make the model more robust, increase the number and diversity in the dataset. For example, include X-ray images from patients in different countries and at different ages.
 Our current model is a binary classification model, identifying whether the patient has Pneumonia or not. In reality, patients could be suffering from different types of lung disease. In the future, I would love to collect different types of lung X-ray images and build a model to automatically diagnosis the type of lung disease.
 ## Reference
 [1]: American Lung Association. (May 27, 2020). Learn About Pneumonia. https://www.lung.org/lung-health-diseases/lung-disease-lookup/pneumonia/learn-about-pneumonia
+
 [2]: American Thoracic Society. Top 20 Pneumonia Facts — 2019. https://www.thoracic.org/patients/patient-resources/resources/top-pneumonia-facts.pdf
+
 [3]: GE Healthcare. (February 25, 2019). AI Could Hold the Key to Identifying Pneumonia Via X-Ray. https://www.gehealthcare.com/feature-article/ai-could-hold-the-key-to-identifying-pneumonia-via-x-ray#:~:text=Chest%20X%2Drays%20have%20long,via%20X%2Dray%20a%20challenge.
