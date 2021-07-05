@@ -8,7 +8,7 @@ Over 150 million people get infected with Pneumonia on an annual basis. It is th
 ### The Challenges
 We know that Pneumonia is a common illness that affects many people in the US and worldwide. How do we detect this disease? Chest X-rays have long been considered the best tool to detect any form of Pneumonia. However, studies have shown that even experienced radiologists have a hard time correctly identify whether something is an infiltrate (a substance denser than air, such as pus or fluid) on the X-Ray[3]. This causes delays in diagnosis, which increases the disease severity. The risk of Pneumonia is immense for many, especially in developing countries with severe pollution and inadequate medical resources and personnel. For example, in Africa's 57 countries, a gap of 2.3 million doctors and nurses exists. The lack of doctors and nurses makes diagnosis and treatment of Pneumonia more difficult.
 ## Goal
-Our goal is to build a deep learning model to automatically identify whether a patient is suffering from Pneumonia or not by checking check X-ray images. The model needs to be highly accurate because life really matters.
+Our goal is to build a deep learning model to automatically identify whether a patient is suffering from Pneumonia or not by checking chest X-ray images. The model needs to be highly accurate because life really matters.
 ## Dataset
 The data used for this project can be found at https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia. The dataset includes two classes which are normal and Pneumonia.
 ## Methodology
